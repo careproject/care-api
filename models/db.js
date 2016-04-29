@@ -7,7 +7,6 @@
 
 
 var sqlite3   = require('sqlite3').verbose();
-var User      = require('./User');
 var UserType  = require('./Constants').UserType;
 var fs        = require("fs");
 var dbFile    = "careDev.db";
